@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Nunito Sans' Arial;
+    font-family: 'Nunito Sans Arial';
 }
 
 body * {
@@ -194,13 +194,14 @@ a {
 
 .header-naviagtion__item {
     margin-right: 47px;
+    cursor: pointer;
 }
 
 .header-naviagtion__item a {
     text-decoration: none;
 }
 
-.navActive a {
+.navActive {
     color: #E3B873;
 }
 
@@ -339,19 +340,15 @@ a {
     color: #FFFFFF;
 }
 
-.S2Container4 a {
-    display: flex;
-    align-items: center;
-}
-
 .S2Container4 ul {
     width: 205px;
     display: flex;
     justify-content: space-between;
+
 }
 
-.ShrinkElement { 
-    margin-right: -5px;
+.S2Container4 ul li {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1100px) {
